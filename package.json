@@ -11,6 +11,9 @@
     "preversion": "npm run build",
     "postversion": "git push && npm publish"
   },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "firebase": "^7.0.0"
   },
