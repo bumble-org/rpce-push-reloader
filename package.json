@@ -14,9 +14,6 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "firebase": "^7.0.0"
-  },
   "devDependencies": {
     "@sucrase/jest-plugin": "^2.0.0",
     "jest": "^24.9.0",
@@ -26,5 +23,8 @@
     "ts-jest": "^24.1.0",
     "tslib": "^1.10.0",
     "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "firebase": "^7.1.0"
   }
 }
