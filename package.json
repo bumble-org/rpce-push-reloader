@@ -2,6 +2,9 @@
   "name": "rpce-push-reloader",
   "version": "0.2.0",
   "description": "Used in rollup-plugin-chrome-extension to reload your Chrome extension during development.",
+  "files": [
+    "dist"
+  ],
   "main": "dist/index-cjs.js",
   "module": "dist/index-esm.js",
   "scripts": {
@@ -11,11 +14,9 @@
     "preversion": "npm run build",
     "postversion": "git push && npm publish"
   },
-  "files": [
-    "dist"
-  ],
   "devDependencies": {
     "@sucrase/jest-plugin": "^2.0.0",
+    "firebase": "^7.1.0",
     "jest": "^24.9.0",
     "rollup": "^1.22.0",
     "rollup-plugin-bundle-imports": "^1.4.5",
@@ -25,8 +26,5 @@
     "ts-jest": "^24.1.0",
     "tslib": "^1.10.0",
     "typescript": "^3.6.3"
-  },
-  "dependencies": {
-    "firebase": "^7.1.0"
   }
 }
