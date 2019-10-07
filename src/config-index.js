@@ -1,7 +1,7 @@
 // Firebase manual chunk
-import fb from '@firebase/app'
-import '@firebase/auth'
-import '@firebase/functions'
+import * as fb from 'firebase/app'
+import 'firebase/auth'
+import 'firebase/functions'
 
 import { config } from './CONFIG'
 

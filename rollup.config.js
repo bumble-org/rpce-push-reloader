@@ -31,9 +31,9 @@ export default [
       },
     ],
     external: [
-      '@firebase/app',
-      '@firebase/auth',
-      '@firebase/functions',
+      'firebase/app',
+      'firebase/auth',
+      'firebase/functions',
     ],
     plugins,
   },
