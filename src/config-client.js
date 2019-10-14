@@ -2,9 +2,9 @@
 /* eslint-env webextensions */
 
 // Firebase manual chunk
-import firebase from '@firebase/app'
-import '@firebase/messaging'
-import '@firebase/functions'
+import firebase from 'firebase/app'
+import 'firebase/messaging'
+import 'firebase/functions'
 
 import { config, publicVapidKey } from './CONFIG'
 
